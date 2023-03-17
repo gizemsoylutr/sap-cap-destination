@@ -1,0 +1,11 @@
+{
+  "authenticationMethod": "none",
+  "routes": [
+    {
+      "source": "^/public/(.*)",
+      "target": "/public-api/v1/pcf",
+      "destination": "cfp-api"
+    }
+  ],
+  "welcomeFile": "/destinationapp"
+}
